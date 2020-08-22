@@ -1,0 +1,27 @@
+
+
+.navbar-dark{
+
+    background-color: rgb(19, 19, 117);
+    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+img{
+
+    height: 85px;
+    width:180px;
+
+}
+
+footer
+{
+    background-color: rgb(19, 19, 117);
+    color:white;
+}
+
+.btn-git{
+    background: white;
+}

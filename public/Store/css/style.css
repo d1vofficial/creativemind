@@ -1,0 +1,111 @@
+/*google fonts*/    
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto&family=Sofia&display=swap');
+
+
+:root{
+    --light-gray:454545#;
+    --primary-color:37989f;
+    --border:#2b303218;
+    --text-color:#ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive;
+
+}
+
+.primary-color{
+    color:var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color) !important;
+}
+
+.text-color:{
+    color:var(--text-color);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+.lightblue{
+    color:lightblue;
+}
+
+header{
+    background-color:#62a0b5;
+
+}
+
+.header-links a {
+    text-decoration: none;
+    font-family: var(--roboto);
+    color: white;
+}
+
+.navbar-nav .nav-item .nav-link{
+    padding: 0 1.3em;
+}
+
+form input i .cart-icon{
+    margin-right: 6rem;
+}
+
+/*slider one*/
+
+.site-slider{
+    position: relative;
+}
+
+.position-top{
+    position: absolute;
+    top:50%;
+}
+
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+    background-color: #62a0b5;
+    padding: 1rem 1.5rem;
+    border-radius: 10rem;
+    color:white;
+    margin:0 1rem;
+    opacity: 0;
+}
+
+.site-slider:hover .slider-btn .prev,
+.site-slider:hover .slider-btn .next{
+    opacity: 1;
+    transition:opacity 1s ease;
+}
+
+/*slick dots*/
+.slick-dots{
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    position: absolute;
+    bottom:0;
+    right: 50%;
+}
+
+.slick-dots li{
+    margin: 0 0.6rem;
+}
+
+.right-0{
+    right: 0;
+}
+
+.slick-dots button{
+    display: block;
+    width: 0.5rem;
+    height: 0.5 rem;
+    padding: 0;
+    border: none;
+    background-color: white;
+    text-indent: -99999px;
+    border-radius: 100%;
+}

@@ -1,0 +1,45 @@
+#engine
+{
+	font-size: 100px;
+	margin-top: 100px;
+	letter-spacing: -10px;
+}
+
+#India
+{
+	font-size: 19px;
+	letter-spacing: -1px;
+	margin-left: 200px; 
+	margin-top: -10px;
+}
+
+#buttons
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+body
+{
+	background-image: url("G:/coolpad data/WhatsApp Images/IMG-20161124-WA0000.jpg");
+	background-size: cover;
+}
+
+.result{
+	border:2px solid #03165F;
+	border-radius: 10PX;
+	cursor: pointer;
+}
+
+.high{
+	border:2px solid #03165F;
+	border-radius: 10PX;
+	cursor: pointer;
+
+}
+
+.high :hover{
+
+	background: black;
+}
+
